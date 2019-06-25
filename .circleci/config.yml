@@ -16,11 +16,7 @@ jobs:
       - run:
           name: Set Environment Variables
           command: |                      
-            echo 'export app_path=/home/circleci/project/bitcoin-info/app/' >> $BASH_ENV  
-      - run:
-          name: Decrypt remote_credentials_enc.py using openssl
-          command: |
-            openssl aes-256-cbc -d -md md5  -in ./conf/remote_credentials_enc.py -out ./conf/remote_credentials.py -pass env:KEY     
+            echo 'export app_path=/home/circleci/project/bitcoin-info/app/' >> $BASH_ENV    
       - run:
           name: Run the API, Mobile and Selenium tests
           command: |           
