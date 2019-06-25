@@ -1,13 +1,7 @@
 #Set REMOTE_BROWSER_PLATFROM TO BS TO RUN ON BROWSERSTACK else
 #SET REMOTE_BROWSER_PLATFORM TO SL TO RUN ON SAUCE LABS
-REMOTE_BROWSER_PLATFORM = "BS or SL"
+REMOTE_BROWSER_PLATFORM = "BS"
 
 
-USERNAME = "Add your BrowserStack/Sauce Labs username"
-ACCESS_KEY = "Add your BrowserStack/Sauce Labs accesskey"
-
-
-
-
-
-
+USERNAME = "simaenduro1"
+ACCESS_KEY = "C1gmgzXsxPAZ8qp16JGC"
